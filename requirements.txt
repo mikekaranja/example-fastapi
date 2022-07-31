@@ -16,6 +16,7 @@ idna==3.3
 Mako==1.2.1
 MarkupSafe==2.1.1
 passlib==1.7.4
+pip==22.2
 psycopg2-binary==2.9.3
 pyasn1==0.4.8
 pycparser==2.21
@@ -25,6 +26,7 @@ python-jose==3.3.0
 python-multipart==0.0.5
 PyYAML==6.0
 rsa==4.9
+setuptools==58.3.0
 six==1.16.0
 sniffio==1.2.0
 SQLAlchemy==1.4.39
@@ -34,3 +36,7 @@ uvicorn==0.17.6
 uvloop==0.16.0
 watchgod==0.8.2
 websockets==10.3
+wheel==0.37.0
+
+[notice] A new release of pip available: 22.2 -> 22.2.1
+[notice] To update, run: pip install --upgrade pip
