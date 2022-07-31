@@ -1,11 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-# from . import models
-# from .database import engine
 
-import psycopg2
-from psycopg2.extras import RealDictCursor
-import time
 from .routers import post, user, vote, auth
 
 # models.Base.metadata.create_all(bind=engine)
