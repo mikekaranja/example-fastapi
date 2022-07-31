@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from . import models
-from .database import engine
+# from . import models
+# from .database import engine
 
 import psycopg2
 from psycopg2.extras import RealDictCursor
